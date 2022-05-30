@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+
+/* Common */
+.custom-line-height {
+    line-height: 1.8;
+}
+
 /* Nav */
 .logo {
     font-family: 'Lobster', cursive;
@@ -89,4 +95,46 @@ ul li a {
 /* Typewriter */
 .type-writer {
     font-size: 30px;
+}
+
+/* Banner image */
+.height {
+    max-height: calc(100vh - 120px) !important;
+    /* overflow-y: hidden !important; */
+}
+
+.images {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.images img {
+    /* right: 100px; */
+    bottom: 0;
+    transition: all 1s;
+}
+
+.images #back-image {
+    /* max-width: 500px; */
+    /* width: 100%; */
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    left: 0;
+}
+
+.images:hover #back-image {
+    transform: translateY(-30px);
+}
+
+.images:hover .img2 {
+    transform: translateX(30px);
+}
+
+/* Resume button */
+.resume-button:hover {
+    color: #fff !important;
 }
