@@ -2,7 +2,7 @@ import React from 'react';
 import { Transition } from "@headlessui/react";
 import CustomLink from '../../CustomLink/CustomLink';
 import { Link, useNavigate } from 'react-router-dom';
-import { BsFacebook, BsTwitter, BsInstagram } from 'react-icons/bs';
+import { BsFacebook, BsGithub, BsLinkedin } from 'react-icons/bs';
 import { useState } from 'react';
 
 const Navbar = () => {
@@ -10,26 +10,26 @@ const Navbar = () => {
     const navigate = useNavigate();
 
     return (
-        <div className=' sticky top-0 z-50 shadow-sm'>
-            <div className="bg-[#6D9900] hidden md:block">
+        <>
+            <div className="bg-primary hidden md:block">
                 <div className="flex justify-between items-center h-12 container mx-auto">
-                    <div className=" text-white text-md">
-                        <p>Get Free Shipping – Free 30 Day Money Back Guarantee</p>
+                    <div className=" text-[#38BDF8] text-md">
+                        <p>MERN Stack Developer | From Programming Hero</p>
                     </div>
                     <div className="right-icon flex text-white">
-                        <Link to="https://www.facebook.com/ayon.jodder.75/"><BsFacebook className='ml-8 text-xl'></BsFacebook></Link>
-                        <Link to="https://github.com/AyonJD"><BsTwitter className='ml-8 text-xl'></BsTwitter></Link>
-                        <Link to="https://github.com/AyonJD"><BsInstagram className='ml-8 text-xl'></BsInstagram></Link>
+                        <a href="https://www.linkedin.com/in/ayon-jodder/"><BsLinkedin className='ml-8 text-xl'></BsLinkedin></a>
+                        <a href="https://github.com/AyonJD"><BsGithub className='ml-8 text-xl'></BsGithub></a>
+                        <a href="https://www.facebook.com/ayon.jodder.75/"><BsFacebook className='ml-8 text-xl'></BsFacebook></a>
                     </div>
                 </div>
             </div>
 
-            <nav className="bg-[#F5F5F5] py-4">
+            <nav className="bg-[#ffffff] bg-clip-padding bg-opacity-5 sticky top-0 py-4">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between md:block">
                         <div className="flex items-center">
                             <div className="flex-shrink-0">
-                                <h1 className='text-4xl' onClick={() => navigate('/')}>Ayon <span>Jodder</span></h1>
+                                <h1 className='text-4xl logo' onClick={() => navigate('/')}>Ayon <span>Jodder</span></h1>
                             </div>
                             <div className="hidden md:flex justify-between md:ml-auto">
                                 <div className="nav-item ml-10 flex items-baseline space-x-4 text-lg">
@@ -169,7 +169,7 @@ const Navbar = () => {
                     )}
                 </Transition>
             </nav>
-        </div>
+        </>
     );
 };
 
