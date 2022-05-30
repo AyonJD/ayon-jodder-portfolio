@@ -138,3 +138,19 @@ ul li a {
 .resume-button:hover {
     color: #fff !important;
 }
+
+/* Dotted BG */
+.dotted-bg {
+    background: radial-gradient(circle at center,
+            #38BDF8 10%,
+            transparent 20%),
+        transparent;
+    background-size: 19px 18px;
+    height: 30rem;
+    width: 26rem;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -15rem;
+    left: -12rem;
+    z-index: -10;
+}
