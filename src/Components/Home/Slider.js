@@ -33,7 +33,7 @@ const Slider = () => {
 
             <div className='flex-1 images md:overflow-hidden w-full'>
                 <img id='back-image' className='ing1 md:w-2/3 mx-auto lg:w-full absolute md:bottom-[-10px] top-0' src={bulb} alt="" />
-                <img className='lg:w-2/3 md:w-1/2 sm:w-2/3  mx-auto absolute top-[13%] lg:left-10 md:left-32 img2 -mt-10' src={myImage} alt="" />
+                <img className='lg:w-2/3 md:w-1/2 sm:w-2/3  mx-auto absolute top-12 md:top-[13%] lg:left-10 md:left-32 img2 -mt-10' src={myImage} alt="" />
             </div>
             <div className="dotted-bg hidden sm:block"></div>
         </div>
