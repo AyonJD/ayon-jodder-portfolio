@@ -29,7 +29,7 @@ const Navbar = () => {
                     <div className="flex items-center justify-between md:block">
                         <div className="flex items-center">
                             <div className="flex-shrink-0">
-                                <h1 className='text-4xl logo' onClick={() => navigate('/')}>Ayon <span>Jodder</span></h1>
+                                <h1 className='text-4xl cursor-pointer logo' onClick={() => navigate('/')}>Ayon <span>Jodder</span></h1>
                             </div>
                             <div className="hidden md:flex justify-between md:ml-auto">
                                 <div className="nav-item ml-10 flex items-baseline space-x-4 text-lg">

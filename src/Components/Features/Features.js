@@ -29,7 +29,7 @@ const Features = ({ title, details }) => {
                     </div>
                     <div class="contentBox">
                         <h3>{title}</h3>
-                        <p title={details}>{details.slice(0, 100)}...</p>
+                        <p title={details}>{details?.slice(0, 100)}...</p>
                         <a href="https://github.com/AyonJD"><span>Explore More</span></a>
                     </div>
                 </div>
