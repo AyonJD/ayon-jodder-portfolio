@@ -18,7 +18,7 @@ const FeaturesPage = () => {
     ]
     return (
         <div className="bg-image-triangle">
-            <div className="container-02 mt-40 md:mt-0 pt-28">
+            <div className="container-02 mt-40 md:mt-0 py-28">
                 <h2 className='mx-auto glass-header w-2/3 md:w-1/4 mb-10'>What I Do</h2>
                 <div className='grid grid-cols-1 md:grid-cols-3 container mx-auto'>
                     {
