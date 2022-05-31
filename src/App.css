@@ -6,6 +6,10 @@
     line-height: 1.8;
 }
 
+.custom-border {
+    border-bottom: 10px double #ffffff;
+}
+
 /* Nav */
 .logo {
     font-family: 'Lobster', cursive;
@@ -163,9 +167,8 @@ ul li a {
     z-index: 1;
 }
 
-.container-02 h2 {
+.glass-header {
     position: relative;
-    width: 50%;
     text-align: center;
     z-index: 11;
     color: #fff;

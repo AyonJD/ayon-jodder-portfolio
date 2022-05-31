@@ -14,9 +14,9 @@ function Tilt(props) {
 const Features = ({ title, details }) => {
     const options = {
         scale: 1,
-        speed: 1000,
-        max: 30,
-        // glare: true,
+        speed: 1500,
+        max: 40,
+        glare: true,
         "max-glare": 1
     };
     return (
