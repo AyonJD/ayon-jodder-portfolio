@@ -4,12 +4,9 @@ import SocialFollow from './SocialFollow';
 const UnderConstruction = () => {
     return (
         <div className="buildingPage">
-            <header id="header">
-                <h1>home-umzüge.de</h1>
-            </header>
 
             <div className="content">
-                <h1>&lt; baustelle /&gt;</h1>
+                <h1 className=''>&lt; This Page is Under Construction /&gt;</h1>
                 <p>Working day and night!</p>
                 <SocialFollow />
             </div>
