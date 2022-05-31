@@ -14,7 +14,7 @@ const Navbar = () => {
             <div className="bg-primary hidden md:block">
                 <div className="flex justify-between items-center h-12 container mx-auto">
                     <div className=" text-[#38BDF8] text-md">
-                        <p>MERN Stack Developer | From Programming Hero</p>
+                        <p>MERN Stack Developer</p>
                     </div>
                     <div className="right-icon flex text-white">
                         <a href="https://www.linkedin.com/in/ayon-jodder/"><BsLinkedin className='ml-8 text-xl'></BsLinkedin></a>
