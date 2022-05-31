@@ -66,7 +66,7 @@ const Portfolio = () => {
                         </div>
                     </div>
 
-                    <div className="col-portfolio" ontouchstart="this.classList.toggle('hover');">
+                    <div className="col-portfolio" ontouchstart="this.classList.toggle('hover');" >
                         <div className="container-portfolio">
                             <div className="front-portfolio front4">
                                 <div className="inner-portfolio">
@@ -83,9 +83,9 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div >
 
-                    <div className="col-portfolio" ontouchstart="this.classList.toggle('hover');">
+                    <div className="col-portfolio" ontouchstart="this.classList.toggle('hover');" >
                         <div className="container-portfolio">
                             <div className="front-portfolio front5">
                                 <div className="inner-portfolio">
@@ -102,9 +102,9 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div >
 
-                    <div className="col-portfolio" ontouchstart="this.classList.toggle('hover');">
+                    <div className="col-portfolio" ontouchstart="this.classList.toggle('hover');" >
                         <div className="container-portfolio">
                             <div className="front-portfolio front6">
                                 <div className="inner-portfolio">
@@ -121,9 +121,9 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div >
 
-                    <div className="col-portfolio" ontouchstart="this.classList.toggle('hover');">
+                    <div className="col-portfolio" ontouchstart="this.classList.toggle('hover');" >
                         <div className="container-portfolio">
                             <div className="front-portfolio front7">
                                 <div className="inner-portfolio">
@@ -140,9 +140,9 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div >
 
-                    <div className="col-portfolio" ontouchstart="this.classList.toggle('hover');">
+                    <div className="col-portfolio" ontouchstart="this.classList.toggle('hover');" >
                         <div className="container-portfolio">
                             <div className="front-portfolio front7">
                                 <div className="inner-portfolio">
@@ -159,11 +159,11 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div >
 
-                </div>
-            </div>
-        </div>
+                </div >
+            </div >
+        </div >
     );
 };
 

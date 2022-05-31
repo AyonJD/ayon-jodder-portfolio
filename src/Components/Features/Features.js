@@ -23,11 +23,11 @@ const Features = ({ title, details }) => {
         <>
 
             <Tilt options={options} className="z-50" >
-                <div class="glassmorphic-card">
-                    <div class="imgBox">
-                        <i class="fa fa-pencil-ruler"></i>
+                <div className="glassmorphic-card">
+                    <div className="imgBox">
+                        <i className="fa fa-pencil-ruler"></i>
                     </div>
-                    <div class="contentBox">
+                    <div className="contentBox">
                         <h3>{title}</h3>
                         <p title={details}>{details?.slice(0, 100)}...</p>
                         <a href="https://github.com/AyonJD"><span>Explore More</span></a>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from '../Contact/Contact';
 import Features from '../Features/Features';
 import Portfolio from '../Portfolio/Portfolio';
 import Slider from './Slider';
@@ -24,7 +25,7 @@ const Home = () => {
         <div >
             <Slider ></Slider>
             <div className="bg-image-triangle">
-                <div class="container-02 mt-40 md:mt-0 pt-28">
+                <div className="container-02 mt-40 md:mt-0 pt-28">
                     <h2 className='mx-auto glass-header w-2/3 md:w-1/4 mb-10'>What I Do</h2>
                     <div className='grid grid-cols-1 md:grid-cols-3 container mx-auto'>
                         {
@@ -36,6 +37,7 @@ const Home = () => {
                 </div>
             </div>
             <Portfolio></Portfolio>
+            <Contact></Contact>
         </div>
     );
 };

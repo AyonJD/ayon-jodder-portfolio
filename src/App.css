@@ -10,6 +10,10 @@
     border-bottom: 10px double #ffffff;
 }
 
+.custom-border-primary {
+    border-bottom: 10px double #0F172A;
+}
+
 /* Nav */
 .logo {
     font-family: 'Lobster', cursive;
