@@ -3,7 +3,7 @@ import UnderConstruction from '../UnderConstruction/UnderConstruction';
 
 const Blog = () => {
     return (
-        <div>
+        <div className='under-cnstruction-background'>
             <UnderConstruction></UnderConstruction>
         </div>
     );

@@ -1,7 +1,6 @@
 import React from 'react';
 import Features from '../Features/Features';
 import Portfolio from '../Portfolio/Portfolio';
-import UnderConstruction from '../UnderConstruction/UnderConstruction';
 import Slider from './Slider';
 
 

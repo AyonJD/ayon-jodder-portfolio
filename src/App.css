@@ -372,7 +372,7 @@ a.telegram {
     display: flex;
     -webkit-box-pack: center;
     justify-content: center;
-    box-shadow: inset 0 -60px 0 -30px #ff6347;
+    box-shadow: inset 0 -60px 0 -30px #0F1729;
 }
 
 .buildings {
@@ -384,7 +384,7 @@ a.telegram {
 .buildings div {
     height: inherit;
     width: 42.48366013071895px;
-    background: #ff6347;
+    background: #0F1729;
     position: absolute;
     bottom: 10%;
 }
@@ -476,7 +476,7 @@ a.telegram {
 
 .crane .line {
     border: none;
-    background: #ff6347;
+    background: #0F1729;
     outline: 1px solid transparent;
     z-index: 0;
 }
@@ -508,7 +508,7 @@ a.telegram {
     display: block;
     bottom: 0;
     left: -4500%;
-    border: solid 1px #ff6347;
+    border: solid 1px #0F1729;
 }
 
 .craneTwo .line.lineThree:after {
@@ -527,27 +527,27 @@ a.telegram {
     background: -webkit-gradient(linear,
             left bottom,
             left top,
-            from(#ff6347),
+            from(#0F1729),
             to(#f29b8b));
-    background: linear-gradient(to top, #ff6347, #f29b8b);
+    background: linear-gradient(to top, #0F1729, #f29b8b);
 }
 
 .craneTwo .stand {
     background: -webkit-gradient(linear,
             left bottom,
             left top,
-            from(#ff6347),
+            from(#0F1729),
             to(#f19483));
-    background: linear-gradient(to top, #ff6347, #f19483);
+    background: linear-gradient(to top, #0F1729, #f19483);
 }
 
 .craneThree .stand {
     background: -webkit-gradient(linear,
             left bottom,
             left top,
-            from(#ff6347),
+            from(#0F1729),
             to(#f08c7b));
-    background: linear-gradient(to top, #ff6347, #f08c7b);
+    background: linear-gradient(to top, #0F1729, #f08c7b);
 }
 
 .weight {
@@ -620,7 +620,7 @@ a.telegram {
     width: 9%;
     bottom: 0;
     left: 40%;
-    background: #ff7359;
+    background: #0F1729;
 }
 
 .brickTwo {
@@ -639,7 +639,7 @@ a.telegram {
 }
 
 .craneOne div {
-    border: solid 1px #ff6347;
+    border: solid 1px #0F1729;
 }
 
 .craneOne .line {
@@ -660,7 +660,7 @@ a.telegram {
 }
 
 .craneTwo div {
-    border: solid 1px #ff6347;
+    border: solid 1px #0F1729;
 }
 
 .craneTwo .line {
@@ -689,7 +689,7 @@ a.telegram {
 }
 
 .craneThree div {
-    border: solid 1px #ff6347;
+    border: solid 1px #0F1729;
 }
 
 .craneThree .line {
@@ -761,19 +761,23 @@ a.telegram {
     animation: moveWeight 12s infinite alternate;
 }
 
+.under-cnstruction-background {
+    height: calc(100vh - 120px);
+}
 
 
-/* body {
+
+.under-cnstruction-background {
     background: -webkit-gradient(linear,
             left bottom,
             left top,
-            from(#ffa191),
-            to(#ffc247));
-    background: linear-gradient(to top, #ffa191, #ffc247);
+            from(#0F1729),
+            to(#38BDF8));
+    background: linear-gradient(to top, #0F1729, #38BDF8);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
-} */
+}
 
 @-webkit-keyframes moveCrane {
 
